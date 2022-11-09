@@ -1,0 +1,17 @@
+# list files
+alias la="ls -oa" # show hidden files and format nicely
+
+# change directories
+alias ..="cd .."
+alias roj="cd ~/projects" # or wherever you store your main project files
+
+# git aliases
+alias gdf="git diff"
+alias gap="git add -p"
+alias gc="git commit -m"
+alias gs="git status"
+alias gco="git checkout"
+alias gul="git pull"
+alias gush="git push"
+alias gbra="git branch"
+alias glog="git log --pretty=format:'%h - %an: %s' --graph" # print out log with hash, author name, status, and include graph info

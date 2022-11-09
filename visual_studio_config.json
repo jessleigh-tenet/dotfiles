@@ -1,0 +1,37 @@
+{
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.python"
+    },
+    "[prisma]": {
+      "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/*.bak": true,
+      "**/*.pyc": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "eslint.validate": ["javascript"],
+    "python.formatting.provider": "black",
+    "python.venvPath": "~/.venv",
+    "python.defaultInterpreterPath": "/Users/mala/.venv/bin/python3",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "eslint.format.enable": true,
+    "eslint.run": "onSave",
+    "eslint.options": {
+      "configFile": "/Users/mala/tenethq/tenet/apife/.eslintrc.json"
+    },
+    "workbench.panel.defaultLocation": "right",
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "workbench.editor.showTabs": false
+  }
